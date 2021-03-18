@@ -1,5 +1,5 @@
 var da, aa, id, od, curr;
-var prices = [];
+var prices = []
 
 function process() {
   prices = [];
