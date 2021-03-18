@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head><div style="background-image: url('img_girl.jpg');"> </head>
+  <body>
+    <h1>SkyScanner by Sree Revoori</h1>
+    <label for="l1">Outbound Airport </label>
+    <input type="text" id="l1" />
+    <br /><br />
+    <label for="l2">Inbound Airport </label>
+    <input type="text" id="l2" />
+    <br /><br />
+    <label for="l5">Currency </label>
+    <input type="text" id="l5" />
+    <br /><br />
+    <label for="l3">Leaving Date </label>
+    <input type="date" id="l3" />
+    <br /><br />
+    <label for="l4">Arrival Date </label>
+    <input type="date" id="l4" />
+    <br /><br />
+    <button onclick="process()">
+      Fetch Prices
+    </button>
+    <div id="results"></div>
+  </body>
+  <script src="script.js"></script>
+  <link
+    rel="stylesheet"
+    href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+  />
+  <style>
+      body {
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.technocrazed.com%2Fwp-content%2Fuploads%2F2015%2F12%2FAirplane-wallpaper-123.jpg&f=1&nofb=1");
+      }
+      h1{
+        color:white;
+      }
+      #results{
+        font-family:georgia;
+        font-size:30px;
+      }
+      </style>
+  </html>
